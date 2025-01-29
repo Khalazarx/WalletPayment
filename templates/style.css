@@ -1,0 +1,47 @@
+. {
+    font-family: "monserrat", sans-serif;
+    font-size: 17px;
+    color:rgb(211, 20, 20)
+}
+
+body {
+    color:rgb(14, 123, 178);
+
+    background-color: #f1f1f1;
+    font-zise: 0.75em;
+}
+
+div.nav {
+    background-color:rgb(65, 166, 170);
+    border: solid #000;
+    position: fixed;
+    top: 0;
+} 
+
+div.nav > ul {
+    display: flex;
+    list-style-type: none; /* menghilangkan titik */
+    padding: 0;
+}
+
+div.nav > ul > li {
+    margin-right: 10px; /* Optional: Add some space between list items */
+}
+
+div.nav > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color:rgb(65, 166, 170);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    width: 100px;
+    float: right;
+    display: inline-block;
+    margin-right: 0.75em; 
+    font-color:rgb(76, 188, 236);
+}
+}

@@ -19,4 +19,4 @@ def myfunc():
     z = "emang bisa?? "
     print ("pakek bahasa py? " + z)
 
-
+myfunc() # Memanggil fungsi myfunc
